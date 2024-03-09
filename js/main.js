@@ -245,6 +245,33 @@
       }
     }
   });
+
+  $("#contactform").on("submit", function (event) {
+    event.preventDefault(); // prevent reload
+
+    $("#button-primary-send").prop("disabled", true);
+
+    var formData = new FormData(this);
+    formData.append("service_id", "service_27u0ovy");
+    formData.append("template_id", "template_0foyjxd");
+    formData.append("user_id", "PAseUS8uxpMPvhtaf");
+
+    $.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
+      type: "POST",
+      data: formData,
+      contentType: false, // auto-detection
+      processData: false // no need to parse formData to string
+    })
+      .done(function () {
+        $("#button-primary-send").prop("disabled", false);
+        alert("Your mail is sent!");
+        this.reset();
+      })
+      .fail(function (error) {
+        $("#button-primary-send").prop("disabled", false);
+        alert("Oops... " + JSON.stringify(error));
+      });
+  });
 })(jQuery);
 
 document.querySelectorAll(".scroll-link").forEach((anchor) => {
