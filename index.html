@@ -19,8 +19,11 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/projects.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	<!-- Calendly badge widget begin -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+   <!-- Calendly badge widget begin -->
 	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 	<script type="text/javascript">window.onload = function () {
@@ -58,6 +61,7 @@
 			<a class="scroll-link" href="#about"><i class="fas fa-user"></i></a>
 			<a class="scroll-link" href="#work"><i class="fas fa-briefcase"></i></a>
 			<a class="scroll-link" href="#edu"><i class="fas fa-graduation-cap"></i></a>
+			<a class="scroll-link" href="#projects"><i class="fa fa-tasks"></i></a>
 			<a class="scroll-link" href="#personal-insights"><i class="fas fa-lightbulb"></i></a>
 			<a class="scroll-link" href="#contact"><i class="fas fa-envelope"></i></a>
 		</div>
@@ -423,17 +427,7 @@
 						</div>
 
 
-						<!-- <div class="timeline-content">
-							<div class="timeline-ico">
-								<i class="fa fa-graduation-cap"></i>
-							</div>
-	   					<h4>Al Furat Petroleum Company | Syrie - Ingénieur Télécom –
-2010 / 2013</h4>
-	   					<p>Déploiement et mise en service des équipements radio et
-transmission (Sagem)
-§ Configuration de routeurs Cisco .</p>
-	   				</div> -->
-
+					
 					</div> <!-- /timeline-block -->
 
 
@@ -442,8 +436,10 @@ transmission (Sagem)
 			</div> <!-- /col-twelve -->
 
 		</div> <!-- /resume-timeline -->
+</section>
+<section id="edu" class="grey-section">
 
-		<div id="edu" class="row resume-timeline">
+		<div id="educ" class="row resume-timeline">
 
 			<div class="col-twelve resume-header">
 
@@ -508,6 +504,38 @@ transmission (Sagem)
 	<!-- Portfolio Section
    ================================================== -->
 
+   <section id="projects" class="grey-section">
+
+	<div id="proj" class="row resume-timeline">
+
+		<div class="col-twelve resume-header">
+
+			<h2>PROJECTS</h2>
+
+		</div> <!-- /resume-header -->
+
+		<div class="portfolio-slider">
+			<!-- Projects will be dynamically added here -->
+		</div>
+	</div> <!-- /resume-timeline -->
+
+</section> <!-- /features -->
+<div class="popup" id="projectPopup">
+    <div class="popup-content">
+        <div class="popup-header">
+            <h2 id="popupProjectName"></h2>
+            <span class="close-popup" onclick="closePopup()">&#10006;</span>
+        </div>
+        <div id="popupContent" class="popup-body"></div>
+    </div>
+</div>
+<div style="padding-top: 20px; background-color: #151515;">
+	&nbsp;
+	&nbsp;
+	&nbsp;
+	&nbsp;
+
+</div>
 
 
 	<!-- CTA Section
@@ -747,6 +775,13 @@ transmission (Sagem)
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/projects.js"></script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
 
 </body>
 

@@ -1,0 +1,120 @@
+.portfolio-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.portfolio-slider {
+    position: relative;
+}
+.project {
+    padding: 20px;
+    background: #111214;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    cursor: pointer;
+    height: 500px !important; /* Set a fixed height for all project cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid color(srgb 0.5764 0.5765 0.5765);
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+#arrowbtn {
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+.project img {
+    max-width: 100%;
+    max-height: 45%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-slide {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.slick-prev, .slick-next {
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    top: 50%;
+    /* transform: translateY(-50%); */
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 18, 20, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.popup-content {
+    background: #111214;
+    padding: 0;
+    border-radius: 10px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    position: relative;
+    color: #ffffff;
+    border: 1px solid #939393;
+}
+.popup-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111214;
+    padding: 10px 20px;
+    border-bottom: 1px solid #939393;
+    z-index: 1001;
+}
+.popup-header h2 {
+    margin: 0;
+    color: #ff0077;
+}
+.close-popup {
+    cursor: pointer;
+    color: #ff0077;
+    font-size: 30px;
+}
+.secondary-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.secondary-images img {
+    max-height: 200px;
+    border-radius: 10px;
+}
+.popup-body {
+    padding: 20px;
+}
+#popupContent img {
+    max-height: 400px;
+}
+#popupContent a {
+    color: #ff0077;
+}

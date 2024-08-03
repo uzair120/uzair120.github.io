@@ -2861,235 +2861,328 @@ header .logo a {
  *
  * -------------------------------------------------------------------
  */
-footer {
-	padding-bottom: 3rem;
-	font-size: 1.4rem;
-	font-family: "poppins-regular", sans-serif;
-}
-
-footer a,
-footer a:visited {
-	color: #FFFFFF;
-}
-
-footer a:hover,
-footer a:focus {
-	color: #FF0077;
-}
-
-footer .row {
-	max-width: 900px;
-}
-
-footer .social {
-	text-align: right;
-}
-
-footer .footer-social {
-	display: inline-block;
-	font-size: 2.1rem;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	top: -.3rem;
-}
-
-footer .footer-social li {
-	display: inline-block;
-	margin: 0 12px;
-	padding: 0;
-}
-
-footer .footer-social li a {
-	color: #FFFFFF;
-}
-
-footer .copyright span {
-	display: inline-block;
-}
-
-footer .copyright span::after {
-	content: "|";
-	display: inline-block;
-	padding: 0 1rem 0 1.2rem;
-	color: rgba(255, 255, 255, 0.1);
-}
-
-footer .copyright span:last-child::after {
-	display: none;
-}
-
-/**
- * responsive:
- * footer
- * -------------------------------------------------------------------
- */
-@media only screen and (max-width:768px) {
-	footer {
-		text-align: center;
+ 
+ footer {
+	 padding-bottom: 3rem;
+	 font-size: 1.4rem;
+	 font-family: "poppins-regular", sans-serif;
 	}
-
+	
+	footer a,
+	footer a:visited {
+		color: #FFFFFF;
+	}
+	
+	footer a:hover,
+	footer a:focus {
+		color: #FF0077;
+	}
+	
+	footer .row {
+		max-width: 900px;
+	}
+	
 	footer .social {
-		display: block;
-		width: 100%;
-		text-align: center;
-		margin-bottom: 1.5rem;
+		text-align: right;
 	}
-
+	
+	footer .footer-social {
+		display: inline-block;
+		font-size: 2.1rem;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		top: -.3rem;
+	}
+	
+	footer .footer-social li {
+		display: inline-block;
+		margin: 0 12px;
+		padding: 0;
+	}
+	
+	footer .footer-social li a {
+		color: #FFFFFF;
+	}
+	
 	footer .copyright span {
-		display: block;
+		display: inline-block;
 	}
-
+	
 	footer .copyright span::after {
+		content: "|";
+		display: inline-block;
+		padding: 0 1rem 0 1.2rem;
+		color: rgba(255, 255, 255, 0.1);
+	}
+	
+	footer .copyright span:last-child::after {
 		display: none;
 	}
-}
-
-/**
- * go to top - (_layout.scss)
- * -------------------------------------------------------------------
- */
-#go-top {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	z-index: 600;
-	display: none;
-}
-
-#go-top a {
-	text-decoration: none;
-	border: 0 none;
-	display: block;
-	height: 6.6rem;
-	width: 6rem;
-	line-height: 6.6rem;
-	text-align: center;
-	background: #cc005f;
-	color: #FFFFFF;
-	text-align: center;
-	text-transform: uppercase;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-
-#go-top a i {
-	font-size: 1.6rem;
-	line-height: inherit;
-}
-
-#go-top a:hover {
-	background: #000000;
-}
-
-/*# sourceMappingURL=main.css.map */
-
-
-
-.sidebar {
-	margin: 0;
-	padding: 0;
-	width: 80px;
-	position: fixed;
-	height: 100%;
-	overflow: auto;
-	background-color: #151515;
-	/* Set background color for sidebar */
-	padding: 10px;
-	/* Add some padding for spacing */
-}
-
-.sidebar a {
-	display: block;
-	color: black;
-	padding: 16px;
-	text-align: center;
-	display: block;
-	/* Display anchor elements as block to occupy full width */
-	color: #fff;
-	/* Set color of icons */
-	margin-bottom: 10px;
-	/* Add margin bottom for spacing between icons */
-	transition: color 5s ease;
-	/* Optional: Smooth color transition on hover */
-}
-
-.sidebar a:hover {
-	background-color: #555;
-	color: white;
-	border-radius: 5px;
-	/* Add border radius for rounded corners */
-}
-
-div.content {
-	margin-left: 200px;
-	padding: 1px 16px;
-	height: 1000px;
-}
-
-.sidebar div {
-	display: block;
-	justify-content: center;
-}
-
-.sidebar img {
-	height: 70px;
-	width: 70px;
-	margin-bottom: 20px;
-}
-
-@media screen and (max-width: 1100px) {
-	.sidebar {
-		width: 100%;
-		height: auto;
-		z-index: 1;
-		align-content: center;
-		justify-content: space-between;
+	
+	/**
+	* responsive:
+	* footer
+	* -------------------------------------------------------------------
+	*/
+	@media only screen and (max-width:768px) {
+		footer {
+			text-align: center;
+		}
+		
+		footer .social {
+			display: block;
+			width: 100%;
+			text-align: center;
+			margin-bottom: 1.5rem;
+		}
+		
+		footer .copyright span {
+			display: block;
+		}
+		
+		footer .copyright span::after {
+			display: none;
+		}
 	}
-
+	
+	/**
+	* go to top - (_layout.scss)
+	* -------------------------------------------------------------------
+	*/
+	#go-top {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		z-index: 600;
+		display: none;
+	}
+	
+	#go-top a {
+		text-decoration: none;
+		border: 0 none;
+		display: block;
+		height: 6.6rem;
+		width: 6rem;
+		line-height: 6.6rem;
+		text-align: center;
+		background: #cc005f;
+		color: #FFFFFF;
+		text-align: center;
+		text-transform: uppercase;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-webkit-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+	
+	#go-top a i {
+		font-size: 1.6rem;
+		line-height: inherit;
+	}
+	
+	#go-top a:hover {
+		background: #000000;
+	}
+	
+	/*# sourceMappingURL=main.css.map */
+	
+	
+	
+	.sidebar {
+		margin: 0;
+		padding: 0;
+		width: 80px;
+		position: fixed;
+		height: 100%;
+		overflow: auto;
+		background-color: #151515;
+		/* Set background color for sidebar */
+		padding: 10px;
+		/* Add some padding for spacing */
+	}
+	
+	.sidebar a {
+		display: block;
+		color: black;
+		padding: 16px;
+		text-align: center;
+		display: block;
+		/* Display anchor elements as block to occupy full width */
+		color: #fff;
+		/* Set color of icons */
+		margin-bottom: 10px;
+		/* Add margin bottom for spacing between icons */
+		transition: color 5s ease;
+		/* Optional: Smooth color transition on hover */
+	}
+	
+	.sidebar a:hover {
+		background-color: #555;
+		color: white;
+		border-radius: 5px;
+		/* Add border radius for rounded corners */
+	}
+	
+	div.content {
+		margin-left: 200px;
+		padding: 1px 16px;
+		height: 1000px;
+	}
+	
 	.sidebar div {
+		display: block;
+		justify-content: center;
+	}
+	
+	.sidebar img {
+		height: 70px;
+		width: 70px;
+		margin-bottom: 20px;
+	}
+	
+	@media screen and (max-width: 1100px) {
+		.sidebar {
+			width: 100%;
+			height: auto;
+			z-index: 1;
+			align-content: center;
+			justify-content: space-between;
+		}
+		
+		.sidebar div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.sidebar img {
+			height: 40px;
+			width: 40px;
+			margin-bottom: 0px;
+		}
+		
+		.grey-section {
+			
+			margin-left: 0px;
+		}
+		
+		.sidebar a {
+			float: left;
+		}
+		
+		div.content {
+			margin-left: 0;
+		}
+		
+		.scroll-link-div {
+			display: block;
+			margin: auto;
+		}
+	}
+	
+	@media screen and (max-width: 400px) {
+		.sidebar {
+			
+			display: flex;
+			justify-content: space-around;
+		}
+		
+		.sidebar a {
+			text-align: center;
+			float: none;
+		}
+	}
+	/**
+	* ===================================================================
+	* 19. Projects - (_layout.scss)
+	*
+	* -------------------------------------------------------------------
+	*/
+
+
+	.portfolio-container {
+		max-width: 1200px;
+		margin: auto;
+		padding: 20px;
+	}
+	.portfolio-slider {
+		position: relative;
+	}
+	.project {
+		padding: 20px;
+		background: #111214;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		margin: 20px;
+		cursor: pointer;
+		height: 500px; /* Set a fixed height for all project cards */
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		border: 1px solid color(srgb 0.5764 0.5765 0.5765)
+	}
+	#arrowbtn {
+		background-color: rgba(0, 0, 0, 0.6);
+
+	}
+	.project img {
+		max-width: 100%;
+		border-radius: 10px;
+		margin-bottom: 20px;
+		flex-shrink: 0;
+	}
+	.slick-slide {
+		transition: transform 0.3s ease, opacity 0.3s ease;
+	}
+	
+	.slick-prev, .slick-next {
+		font-size: 30px;
+		background-color: rgba(0, 0, 0, 0.6);
+		color: white;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		z-index: 1;
+		top: 50%;
+		/* transform: translateY(-50%); */
 	}
-
-	.sidebar img {
-		height: 40px;
-		width: 40px;
-		margin-bottom: 0px;
+	
+	.popup {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.8);
+		justify-content: center;
+		align-items: center;
 	}
-
-	.grey-section {
-
-		margin-left: 0px;
+	.popup-content {
+		background: #fff;
+		padding: 20px;
+		border-radius: 10px;
+		max-width: 80%;
+		max-height: 80%;
+		overflow-y: auto;
 	}
-
-	.sidebar a {
-		float: left;
+	.close-popup {
+		cursor: pointer;
+		color: #333;
+		font-size: 20px;
+		float: right;
 	}
-
-	div.content {
-		margin-left: 0;
-	}
-
-	.scroll-link-div {
-		display: block;
-		margin: auto;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	.sidebar {
-
+	.secondary-images {
 		display: flex;
-		justify-content: space-around;
+		gap: 10px;
+		margin-top: 20px;
 	}
-
-	.sidebar a {
-		text-align: center;
-		float: none;
+	.secondary-images img {
+		max-width: 150px;
+		border-radius: 10px;
 	}
-}

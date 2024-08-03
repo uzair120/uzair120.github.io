@@ -1,0 +1,249 @@
+[
+  {
+    "name": "Qarar",
+    "description": "Qarar is a platform designed to streamline the creation of CFO-ready business cases, aiming to help sales teams close deals more quickly.",
+    "role": "Team lead and backend developer",
+    "technologies": {
+      "frontend": ["ReactJS", "ReduxJS"],
+      "backend": ["Java", "DropWizard", "Node.js", "AWS Lambda", "WebSockets"],
+      "database": ["MySQL"],
+      "tools": ["Jenkins", "AWS SQS", "Docker", "Git", "Jira"]
+    },
+    "challenges": [
+      {
+        "challenge": "Integrating real-time updates without compromising performance.",
+        "solution": "Implemented WebSockets for real-time communication, ensuring efficient and scalable updates."
+      },
+      {
+        "challenge": "Monolithic architecture becoming messy with the addition of code by many developers.",
+        "solution": "Broke down the monolith into microservices to ensure that new features could be implemented independently and more easily."
+      }
+    ],
+    "link": "https://qararpro.com",
+    "image": "./images/projects/qarar/qarar-main.png",
+    "secondaryImages": [
+      "./images/projects/qarar/qarar-cashflow.png",
+      "./images/projects/qarar/qarar-cost.png"
+    ]
+  },
+  {
+    "name": "Retailo Go",
+    "description": "Retailo GO is a multipurpose mobile application used for order-booking, cash collection, surveys, and delivering goods by agents for clients.",
+    "role": "Senior software engineer and backend lead",
+    "technologies": {
+      "frontend": ["React Native", "ReduxJS"],
+      "backend": ["NestJS", "NodeJS", "AWS Lambda"],
+      "database": ["MySQL"],
+      "tools": ["Jenkins", "Docker", "Git", "Jira"]
+    },
+    "challenges": [
+      {
+        "challenge": "Ensuring backward compatibility while enhancing API performance.",
+        "solution": "Enhanced APIs for a 30% boost in performance, maintaining compatibility with older versions."
+      },
+      {
+        "challenge": "Identifying and addressing system bottlenecks.",
+        "solution": "Collaborated with cross-functional teams to identify and resolve bottlenecks, ensuring optimal performance under varying workloads."
+      }
+    ],
+    "image": "./images/projects/retailo-go.png",
+    "link": "https://play.google.com/store/apps/details?id=com.app.retailogo"
+  },
+  {
+    "name": "Retailo Voyager",
+    "description": "Voyager in Retailo is a routing platform that enables SaaS clients to create daily routes with various configurations, allowing agents to efficiently complete jobs.",
+    "role": "Lead of a seven-member team",
+    "technologies": {
+      "frontend": ["React.js"],
+      "backend": ["NestJS (Node.js)"],
+      "database": ["MySQL", "MongoDB"],
+      "tools": ["Jenkins", "Docker", "Git", "Jira"]
+    },
+    "challenges": [
+      {
+        "challenge": "Designing a flexible routing system that accommodates various job types and configurations.",
+        "solution": "Implemented advanced routing algorithms with customizable options, ensuring agents can efficiently complete different job types."
+      },
+      {
+        "challenge": "Managing system performance with increasing data and user demands.",
+        "solution": "Optimized backend processes and database queries, enhancing system performance and scalability."
+      }
+    ]
+  },
+  {
+    "name": "Sportify",
+    "description": "Sportify is an outdoor sports management app that allows users to participate as players, book playgrounds, create and manage teams, and challenge other players or teams.",
+    "role": "App developer",
+    "technologies": {
+      "frontend": ["Java (Android)", "React Native"],
+      "backend": ["RESTful APIs"],
+      "database": ["SQLite", "MySQL"],
+      "tools": ["AWS", "Git"]
+    },
+    "challenges": [
+      {
+        "challenge": "Developing the primary application from scratch with seamless functionality.",
+        "solution": "Used Java for Android development, incorporating SQLite for local data storage and RESTful APIs for server communication."
+      },
+      {
+        "challenge": "Identifying and resolving bugs effectively.",
+        "solution": "Led bug identification meetings, improved processes, and utilized code versioning and development tools to enhance workflow."
+      }
+    ],
+    "image": "./images/projects/sportify/sportify-icon.png",
+    "secondaryImages": [
+      "./images/projects/sportify/sportify.png",
+      "./images/projects/sportify/sportify-interests.jpg"
+    ]
+  },
+  {
+    "name": "POP Music",
+    "description": "POP Music is an online music app where users can search for music by artist, album, or song name, create playlists, and play any song they want.",
+    "role": "App developer",
+    "technologies": {
+      "frontend": ["Kotlin", "XML"],
+      "backend": ["Napster Developer API"]
+    },
+    "challenges": [
+      {
+        "challenge": "Integrating seamless music streaming into the app.",
+        "solution": "Implemented a design that optimally integrates the Napster API, ensuring smooth and uninterrupted music streaming."
+      }
+    ],
+    "image": "./images/projects/pop/home-music.jpg",
+    "secondaryImages": [
+      "./images/projects/pop/list.jpg",
+      "./images/projects/pop/play.jpg",
+      "./images/projects/pop/options.jpg",
+      "./images/projects/pop/permissions.jpg"
+    ]
+  },
+  {
+    "name": "Media Editor",
+    "description": "Media Editor is an Android application designed to help users convert audio and video files into specific formats.",
+    "role": "App developer",
+    "technologies": {
+      "frontend": ["Java", "XML"],
+      "backend": ["FFmpeg"]
+    },
+    "challenges": [
+      {
+        "challenge": "Integrating FFmpeg in the Android ecosystem.",
+        "solution": "Applied detailed optimizations and utilized maximum functionalities of the FFmpeg library."
+      },
+      {
+        "challenge": "Conversion processes could be time-consuming.",
+        "solution": "Implemented background processing for conversion tasks to keep the app responsive and provided users with feedback on progress and estimated time of completion."
+      }
+    ],
+    "image": "./images/projects/converter.png"
+  },
+  {
+    "name": "ABU OZI OMA ACHIKOTARA",
+    "description": "It is an Android application that enables users to sing uplifting songs from the Apostolic Faith Church's Collected Gospel Songs (CGS) in the Igbo language.",
+    "role": "App developer",
+    "technologies": {
+      "frontend": ["Java", "XML"],
+      "backend": ["Python", "MySQL"]
+    },
+    "challenges": [
+      {
+        "challenge": "Managing and organizing 700 songs and 100 choruses in the app.",
+        "solution": "Utilized a Python script to efficiently categorize and store all songs and choruses into a MySQL database."
+      },
+      {
+        "challenge": "Ensuring a smooth user experience with such a large dataset.",
+        "solution": "Designed the app to be internet-independent by storing all data locally, optimizing data queries for performance, and creating a simple, intuitive Material Design interface for easy navigation and interaction."
+      }
+    ],
+    "link": "https://apkcombo.com/abu-ozi-oma-achikotara/com.neptune.afmcgsigbo",
+    "image": "./images/projects/abu-ozi/abu-ozi-screen-1.jpg",
+    "secondaryImages": [
+      "./images/projects/abu-ozi/abu-ozi-screen-2.jpg",
+      "./images/projects/abu-ozi/abu-ozi-screen-3.jpg",
+      "./images/projects/abu-ozi/abu-ozi-screen-4.jpg",
+      "./images/projects/abu-ozi/abu-ozi-screen-5.jpg"
+    ]
+  },
+  {
+    "name": "The Guardian - App Locker",
+    "description": "the Guardian is an Android application designed to lock user specified apps based on the specified location with a given radius",
+    "role": "App developer",
+    "technologies": {
+      "frontend": ["Java", "XML"],
+      "backend": ["Google Location Services", "Geofence API"]
+    },
+    "challenges": [
+      {
+        "challenge": "Accurate location tracking and geofencing.",
+        "solution": "Leveraged Google Location Services and Geofence API to accurately track user location and set up precise geofences."
+      },
+      {
+        "challenge": "Ensuring the app locker works seamlessly across different Android devices and versions.",
+        "solution": "Conducted extensive testing on various devices and Android versions to ensure compatibility."
+      }
+    ],
+    "image": "./images/projects/the-guardian/the-guardian-1.png",
+    "secondaryImages": [
+      "./images/projects/the-guardian/the-guardian-screen-1.jpg",
+      "./images/projects/the-guardian/the-guardian-screen-2.jpg",
+      "./images/projects/the-guardian/the-guardian-screen-3.jpg",
+      "./images/projects/the-guardian/the-guardian-screen-4.jpg",
+      "./images/projects/the-guardian/the-guardian-screen-5.jpg"
+    ]
+  },
+  {
+    "name": "Paid Meal",
+    "description": "Paid Meal is a pay-it-forward app developed in React Native, allowing users to buy meals for people in need through participating food vendors.",
+    "role": "React Native developer",
+    "technologies": {
+      "frontend": [
+        "JavaScript",
+        "JSX",
+        "React Native",
+        "Redux",
+        "React Navigation"
+      ],
+      "backend": ["RESTful APIs"]
+    },
+    "challenges": [
+      {
+        "challenge": "Ensuring a smooth and responsive user interface across different devices and screen sizes.",
+        "solution": "Utilized React Native's responsive design capabilities and employed Flexbox for layout management."
+      },
+      {
+        "challenge": "Integrating with multiple food vendors and handling transactions securely.",
+        "solution": "Worked closely with backend developers to implement secure API integrations for vendor data and payment processing."
+      }
+    ],
+    "link": "https://paidmeals.com",
+    "image": "./images/projects/paidmeal.png"
+  },
+  {
+    "name": "CovidNearby",
+    "description": "CovidNearby is a web application designed to identify and track the spread of COVID-19, allowing people to anonymously and securely report their location and health symptoms.",
+    "role": "MERN stack developer",
+    "technologies": {
+      "frontend": ["React"],
+      "backend": ["Node.js", "Express.js"],
+      "database": ["MongoDB"],
+      "security": ["Encryption", "anonymization techniques", "HTTPS"]
+    },
+    "challenges": [
+      {
+        "challenge": "Ensuring user privacy and data security while collecting sensitive health and location information.",
+        "solution": "Implemented robust encryption methods and anonymization techniques to protect user identities."
+      },
+      {
+        "challenge": "Handling large volumes of data efficiently and maintaining performance.",
+        "solution": "Utilized MongoDB for its scalability and performance in handling large datasets."
+      }
+    ],
+    "link": "https://covidnearby.org",
+    "image": "./images/projects/covid/icon.png",
+    "secondaryImages": [
+      "./images/projects/covid/nearby.png",
+      "./images/projects/covid/main.png"
+    ]
+  }
+]
